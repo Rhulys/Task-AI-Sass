@@ -11,7 +11,7 @@ Diferente de listas de tarefas comuns, este projeto utiliza TensorFlow.js para c
 - **Gargalos de Produtividade:** O sistema analisa a carga de trabalho atual e emite alertas automáticos quando a densidade de tarefas complexas ameaça o prazo da sprint.
 
 ## 🛠 Funcionalidades
--- **Autenticação Robusta:** Sistema de Login e Registro utilizando JWT (JSON Web Tokens) e criptografia de senhas com bcrypt.
+- **Autenticação Robusta:** Sistema de Login e Registro utilizando JWT (JSON Web Tokens) e criptografia de senhas com bcrypt.
 - **CRUD Inteligente:** Criação, edição e exclusão de tarefas com sincronização via GraphQL.
 - **Recálculo em Tempo Real:** Alterar a complexidade de uma tarefa dispara automaticamente uma nova inferência da IA.
 - **UX Fluida & Interativa:** Interface animada com Framer Motion, proporcionando transições de estado suaves e feedbacks visuais modernos.
