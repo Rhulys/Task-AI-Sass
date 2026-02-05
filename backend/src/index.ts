@@ -27,8 +27,6 @@ const startServer = async () => {
 	await mongoose.connect(process.env.MONGO_URI || '');
 	console.log('🚀 MongoDB Conectado');
 
-	const server = new ApolloServer({ typeDefs, resolvers });
-
 	const { url } = await server.listen({ port: 4000 });
 	console.log(`Server pronto em ${url}`);
 };
